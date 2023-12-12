@@ -71,6 +71,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .img2{
@@ -85,4 +87,56 @@ flex-flow: column;
 figcaption{
 
     text-align: center;
+}
+
+.container-2{
+background-color: #E5E7EB;
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 300px;
+padding-right: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 32px;
+}
+
+
+p{
+    font-size: 32px;
+}
+
+.container-3{
+
+    background-color: #3882f6;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 700px;
+    margin-right: 700px;
+    border-radius: 25px;
+justify-content: center;
+display: flex;
+height: 100px;
+width: 850px;
+padding-top: 50px;
+
+}
+
+.last{
+
+display: flex;
+flex-direction: column;
+width: 600px;
+
+}
+
+.button-2{
+
+    display: flex;
+    flex-direction: row;
+    align-self:self-end;
+    width: 100px;
+    height: 50px;
+    
 }
